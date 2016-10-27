@@ -1,0 +1,37 @@
+/*
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*/
+
+body {
+    font-family: sans-serif;
+}
+
+.hero {
+    
+}
+
+
+/* Navigation */
+.menu {
+
+}
+
+.menu__row {
+    
+}
+
+.menu__list {
+    display: inline-block;
+}
+
+.menu__link {
+    text-decoration: none;
+}
+
+
+/* End Navigation */
