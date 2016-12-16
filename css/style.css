@@ -1,14 +1,16 @@
-/*
 
 * {
     margin: 0;
     padding: 0;
+    list-style: none;
 }
 
-*/
 
 body {
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    background-color: #fff;
+    color: #6a737b;
 }
 
 .hero {
@@ -18,20 +20,38 @@ body {
 
 /* Navigation */
 .menu {
-
+    background-color: rgba(16, 22, 54, 0.2);
+    width: 100%;
 }
 
 .menu__row {
-    
+    list-style: none;
+    overflow: hidden;
+    margin: 0 21px;
+    padding: 0 15px;
+    display: block;
 }
 
 .menu__list {
-    display: inline-block;
+    float: right;
+}
+
+.menu-brand {
+    float: left;
+    margin: 0 15px;
+    padding: 15px 15px;
 }
 
 .menu__link {
     text-decoration: none;
 }
+
+.menu-a {
+    padding: 15px 15px;
+    border-top: 3px solid red; 
+}
+
+
 
 
 /* End Navigation */
